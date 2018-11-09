@@ -20,4 +20,3 @@ let product = [
         price : 1500
     }
 ];
-
