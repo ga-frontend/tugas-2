@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="1.css">
+    <title>Tugas 2 - Frontend</title>
+</head>
+<body>
+    <header>   
+    <div id="wrapper">
+           <a href="#">SEKAWAN SCARF HIJAB</a>
+    </div>
+           <div id="login">
+                <a href="#">Login</a>
+            </div>
+           <div id="register">
+                <a href="#">Register</a>
+        </div>
+    </header>
+        <section id="home" class="sec-main"></section>
+            <h1 id="main-heading">Make Your Own Style</h1>
+                <img class="product" src="5a.png">
+                <img class="product" src="3aa.png">
+                <img class="product" src="5b.png">
+     
+            <table id="row1">
+                 <tr>
+                    <td name="hijab1">Rukma in White Brown</td>
+                    <td name="hijab2">Ambar in Deep Green</td>
+                    <td name="hijab3">Rukma in Dark Blue</td>
+                </tr>
+                <tr>
+                    <td id="harga1"><strong>Rp.149.000</strong></td>
+                    <td id="harga2"><strong>Rp.149.000</strong></td>
+                    <td id="harga3"><strong>Rp.149.000</strong></td>
+                 </tr>
+                 <tr>
+                    <td ><i>Stock : <span id="stock1">12</span></i></td>
+                    <td ><i>Stock : <span id="stock2">1</span></i></td>
+                    <td ><i>Stock : <span id="stock3">7</span></i></td>
+                 </tr>
+            </table>
+                    <br>
+    <div id="area">
+            <br>
+        <div id="small-area">
+            <br>
+                    <div class="form" onsubmit="akuorder();return false" name="form" style="text-align:center;">
+                            <h4 style="text-align:center; color:rgb(130, 100, 5)">Order Form</Form></h4>
+                                    <div class="custom-select" style="width:375px;">
+                                    <select class="dropdown" id="product">
+                                        <option  value="0">Select Product:</option>
+                                        <option  value="1">Rukma in White Brown</option>
+                                        <option  value="2">Ambar in Tea</option>
+                                        <option  value="3">Rukma in Dark Blue</option>
+                                    </select>
+                    </div>
+                            <p>Qty </p>
+                                         <p><input id="qty" class="label" type="number"  placeholder="Quantities" style="width:300px"></p>
+                
+                            <h4 style="text-align:center; color:rgb(130, 100, 5)">Personal Data</h4> 
+                            <p>Name : </p>
+                                         <p><input class="label" type="text" id="index" placeholder="Name" style="width:375px"></p>
+                            <p>Email : </p>
+                                         <p><input class="label" type="text" id="email" placeholder="Email" style="width:375px"></p>
+                            <p>Address : </p>
+                                        <p><textarea class="label" type="text" id="alamat" placeholder="Address" rows="5" cols="50" tabindex="4"></textarea></p>
+                            <p>Phone : </p>
+                                        <p><input class="label" type="number" id="hp" placeholder="Phone" style="width:375px"></p>
+        
+                <button id="finish" type="button" value="submit" onclick="akuorder()">submit</button>
+        </div>
+         <br>
+     </div>
+        <br>
+    </div>
+    <div style="text-align: center" id="sudahselesai"></div>
+    <p> <span id="order-nama"></span></p>
+    <p> <span id="order-email"></span></p>
+    <p> <span id="order-address"></span></p>
+    <p> <span id="order-phone"></span></p>
+    <p> <span id="order-detail"></span></p>
+    <script src="1.js"></script>
+    <br>
+           <table class="footer">
+            <td></td>
+            <td id="copy">Sekawan Scarf Hijab | 2018</td>
+        </table>
+</body>
+</html>

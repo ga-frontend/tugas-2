@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open sans', sans-serif;
+}
+.sec-main {
+    margin-top: 40px;
+    position: relative;
+    height: 560px;
+    background: url(/home/anggi/foto_sekawan/IMG_9202.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#main-heading {
+    margin-top: 50px;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 300;       
+    text-align: center;
+    letter-spacing: 9px;
+    text-transform: uppercase;
+  }
+
+#wrapper {
+    font-family: 'Nunito', sans-serif;      
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 32px ;
+    font-weight: bold
+}
+
+#login {
+    font-family: 'Open sans', sans-serif;
+    position: absolute;
+    right: 120px;
+    top: 60px        
+}
+
+#register {
+    font-family: 'Open sans', sans-serif;
+    position: absolute;
+    right: 20px;
+    top: 60px        
+}
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}       
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.product {
+	width: 25%;
+	float: left;
+    margin: 4%;
+    margin-bottom: 0%
+}
+
+#row1 {
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    font-family: 'Open sans', sans-serif;
+    
+}
+
+  thead th:nth-child(1) {
+    width: 33%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 33%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 33%;
+  }
+
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.footer {
+    font-family: 'Open sans', sans-serif;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(130, 100, 5);
+    color: white;
+    text-align: center;
+    vertical-align: middle; 
+}
+
+.label {
+	border-radius: 0;
+	border-color: #ccc;
+   	border-width: 0 0 2px 0;
+   	border-style: none none solid none;
+    box-shadow: none;
+    background-color: rgb(236, 236, 236)
+}
+#finish {
+    background-color:rgb(130, 100, 5);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#area {
+    background-color: whitesmoke;
+}
+
+#small-area {
+    background-color: rgba(200, 190, 180, 0.60);
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
