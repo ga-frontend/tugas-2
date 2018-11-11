@@ -5,28 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Kutuku</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Source+Sans+Pro" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
 </head>
 <body>
-  <div id="product-catalogs">
-    <h1>Kutuku</h1>
-    <table id="table">
-      <thead>
-        <tr id="table-head">
-          <th>Name</th>
-          <th>Stock</th>
-          <th>Price</th>
-        </tr>
-        <tbody id="table-body">
-          <!-- table vody is inserted by js -->
-        </tbody>
-      </thead>
-    </table>
+  <h1 class="logo text-center">Kutuku</h1>
+
+  <!-- Product Katalog -->
+  <div id="product-catalogs" class="section">
+    <div class="container">
+      <table id="table" class="table text-left">
+        <thead>
+          <tr id="table-head">
+            <th>Items</th>
+            <th>Stock</th>
+            <th>Price</th>
+          </tr>
+          <tbody id="table-body">
+            <!-- table vody is inserted by js -->
+          </tbody>
+        </thead>
+      </table>
+    </div>
   </div>
 
-  <div id="shopping-cart">
-    
+
+  <!-- Shopping Cart -->
+  <div id="shopping-cart" class="section"></div>
+
+  <!-- Checkout -->
+  <div id="checkout" class="section sticky-bottom flex-end">
+    <div class="purchase-section">
+      <div class="purchase-info"><em>Total Price</em></div>
+      <div class="purchase-info">Rp. <span id="finalPrice">0</span></div>
+      <div class="purchase-info">
+        <button class="btn btn-checkout" id="btn-checkout">Checkout</button>
+      </div>
+    </div>
   </div>
+
   <script src="main.js"></script>
 </body>
 </html>

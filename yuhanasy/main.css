@@ -1,0 +1,130 @@
+/* Color Palletes */
+
+/* 
+#fafafb
+#e0e5e9
+#5371d1
+#7d828d
+#7e96e2
+#c7c2c0 
+*/
+
+
+
+body, 
+html {
+  /* box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif, Helvetica;
+}
+
+.logo {
+  font-family: 'Fredoka One';
+  font-weight: 400;
+  color: #345ad6;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 40px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 60%;
+  min-width: 400px;
+  max-width: 500px;
+  padding: 20px 40px;
+  margin: 4px auto;
+  border: 1px solid #7e96e2;
+  border-radius: 10px;
+  box-shadow: 4px 4px 40px -10px #e0e5e9;
+}
+
+.table {
+  width: 100%;
+  border: none;
+}
+
+.table tr td:last-of-type {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  display: inline-block;
+  padding: 4px 20px;
+  background-color: #345ad6;
+  font-family: inherit;
+  font-weight: 600;
+  color: #fafafb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #7e96e2;
+}
+
+.sticky-bottom {
+  position: fixed;
+  /* bottom: 0; */
+  margin-bottom: 0;
+  background-color: #345ad6;
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+.purchase-section {
+  margin: 10px 0;
+}
+
+.purchase-info {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.btn-checkout {
+  background-color: #f13426;
+}
+
+.btn-checkout:hover {
+  background-color: #ee564c;
+}
+
+#checkout {
+  /* visibility: hidden; */
+  bottom: -45px;
+}
+
+/* 
+#fafafb
+#e0e5e9
+#5371d1
+#7d828d
+#7e96e2
+#c7c2c0 
+*/
