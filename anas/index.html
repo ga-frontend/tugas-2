@@ -138,7 +138,7 @@
 
                         <tr>
                             <td>HAND PHONE</td>
-                            <td>25.000</td>
+                            <td>2.000.000</td>
                             <td><input type="text" id="number3" value="0"></td>
                             <td>
                                 <center><button onclick="reduceValue2()">-</button>
@@ -165,7 +165,7 @@
 
 
                         <tr>
-                            <td>MANTAN</td>
+                            <td>PENGHAPUS</td>
                             <td>15.000</td>
                             <td><input type="text" id="number4" value="0"></td>
                             <td>
@@ -174,19 +174,19 @@
                             </td>
                         </tr>
                         <script>
-                            var mantan = 0;
+                            var penghapus = 0;
 
                             function increaseValue3() {
 
-                                mantan = mantan + 1;
-                                document.getElementById('number4').value = mantan;
+                                penghapus = penghapus + 1;
+                                document.getElementById('number4').value = penghapus;
                                 bayar();
                             }
 
                             function reduceValue3() {
 
-                                valueSiomay = valueSiomay - 1;
-                                document.getElementById('number4').value = valueSiomay;
+                                penghapus = penghapus - 1;
+                                document.getElementById('number4').value = penghapus;
                                 bayar()
                             }
                         </script>
@@ -221,7 +221,7 @@
 
                         <script>
                             function bayar() {
-                                total1 = (usb * 120000) + (laptop * 5500000) + (hp * 2000000) + (mantan * 15000) + (mtemen * 500000);
+                                total1 = (usb * 120000) + (laptop * 5500000) + (hp * 2000000) + (penghapus * 15000) + (mtemen * 500000);
                                 document.getElementById("bayar").innerHTML = total1;
                             }
                         </script>
