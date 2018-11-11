@@ -1,0 +1,39 @@
+.background {
+    background-image: url("../images/sampul.jpg");
+    background-size: cover;
+    padding: 20%;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#text h1 {
+    text-align: center;
+}
+
+#text p {
+    text-align: center;
+}
+
+.text1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.row1 {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
