@@ -16,7 +16,6 @@ let product = [
   },
 ];
 
-let a = document.getElementById("product").value;
 let nama = document.getElementById("index").value;
 let email = document.getElementById("email").value;
 let alamat = document.getElementById("alamat").value;
@@ -28,28 +27,27 @@ function akuorder() {
 let stock1 = document.getElementById("stock1");
 let stock2 = document.getElementById("stock2");
 let stock3 = document.getElementById("stock3");
+let a = document.getElementById("qty1").value;
+let b = document.getElementById("qty2").value;
+let c = document.getElementById("qty3").value;
 
-  if (a = 1) {
-  stock1.innerHTML= product[0].stock - document.getElementById("qty").value ;
+if (a + b + c >= 1) {
+  document.getElementById("area").style.display="block";
 }
+else{alert("Masukkan jumlah produk!");
 
-else if (a = 2) {
-  stock2.innerHTML= product[1].stock - document.getElementById("qty").value ;
-}
-
-else if (a = 3) {
-  stock3.innerHTML= product[2].stock - document.getElementById("qty").value ;
-}
-
-else { stock3.innerHTML= 0;
-}
-
-document.getElementById("sudahselesai").innerHTML = "TERIMA KASIH SUDAH MELAKUKAN ORDER";
 }
 
 
+stock1.innerHTML= product[0].stock - document.getElementById("qty1").value ;
+stock2.innerHTML= product[1].stock - document.getElementById("qty2").value ;
+stock3.innerHTML= product[2].stock - document.getElementById("qty3").value ;
 
+}
 
+function selesai() {
+document.getElementById("sudahselesai").innerHTML = "TERIMA KASIH SUDAH MELAKUKAN ORDER"; 
+}
 
 console.log(akuorder);
 

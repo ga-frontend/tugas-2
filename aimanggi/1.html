@@ -35,31 +35,30 @@
                     <td id="harga1"><strong>Rp.149.000</strong></td>
                     <td id="harga2"><strong>Rp.149.000</strong></td>
                     <td id="harga3"><strong>Rp.149.000</strong></td>
-                 </tr>
+                 </tr>          
                  <tr>
                     <td ><i>Stock : <span id="stock1">12</span></i></td>
                     <td ><i>Stock : <span id="stock2">1</span></i></td>
                     <td ><i>Stock : <span id="stock3">7</span></i></td>
                  </tr>
+                 <div class="form" onsubmit="akuorder();return false" style="text-align:center;">
+                 <tr>
+                    <td ><input id="qty1" class="label" type="number" min="0" placeholder="Quantities" style="width:300px"></td>
+                    <td ><input id="qty2" class="label" type="number" min="0" placeholder="Quantities" style="width:300px"></td>
+                    <td ><input id="qty3" class="label" type="number" min="0" placeholder="Quantities" style="width:300px"></td>
+                 </tr>
+                </div>
             </table>
                     <br>
-    <div id="area">
+            <button class="finish" type="button" value="submit" onclick="akuorder()" style="margin-left:42.5%;">Make an Order!</button>
+                    <br>
+                        <br>
+    <div style="display:none" id="area">     
             <br>
         <div id="small-area">
             <br>
-                    <div class="form" onsubmit="akuorder();return false" name="form" style="text-align:center;">
-                            <h4 style="text-align:center; color:rgb(130, 100, 5)">Order Form</Form></h4>
-                                    <div class="custom-select" style="width:375px;">
-                                    <select class="dropdown" id="product">
-                                        <option  value="0">Select Product:</option>
-                                        <option  value="1">Rukma in White Brown</option>
-                                        <option  value="2">Ambar in Tea</option>
-                                        <option  value="3">Rukma in Dark Blue</option>
-                                    </select>
-                    </div>
-                            <p>Qty </p>
-                                         <p><input id="qty" class="label" type="number"  placeholder="Quantities" style="width:300px"></p>
-                
+                                <div class="form" onsubmit="selesai()" name="form" style="text-align:center;">
+                                            
                             <h4 style="text-align:center; color:rgb(130, 100, 5)">Personal Data</h4> 
                             <p>Name : </p>
                                          <p><input class="label" type="text" id="index" placeholder="Name" style="width:375px"></p>
@@ -70,12 +69,13 @@
                             <p>Phone : </p>
                                         <p><input class="label" type="number" id="hp" placeholder="Phone" style="width:375px"></p>
         
-                <button id="finish" type="button" value="submit" onclick="akuorder()">submit</button>
+                <button class="finish" type="button" value="submit" onclick="selesai()">Submit</button>
         </div>
          <br>
      </div>
         <br>
     </div>
+    <br>    
     <div style="text-align: center" id="sudahselesai"></div>
     <p> <span id="order-nama"></span></p>
     <p> <span id="order-email"></span></p>
