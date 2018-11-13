@@ -1,0 +1,81 @@
+table#tabel {
+    width: 50%; 
+    margin-left:25%; 
+    margin-right:25%;
+    
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+tr{
+    border: 0px solid #dddddd;
+    border-radius: 10px;
+}
+td {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th.atas{
+    border: 2px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+    background-color: #17a2b8;
+    color: white;
+}
+input.inputJumlah{
+    
+    width: 30%;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+button.btn{
+    padding-top: 0px;
+    height: 25px;
+    
+}
+button#kudu_hilang{
+    padding-top: 5px;
+    height: 35px;
+}
+.trHover:hover{
+    background-color: #f1f2f6;
+}
+input.hrgg{
+  width: 100px;
+}
+input.totalll{
+  width: 100px;
+}
+
+.stokuhuy{
+  width: 50px;
+  padding-left: 10px;
+}
+input{
+  text-align: center;
+}
+#result{
+   font-size: 20px;
+   font-family: "Palatino Linotype", "Book Antiqua", "Palatino, serif";
+  background-color: white;
+  width: 600px;
+  border: 2px solid #17a2b8;
+    border-radius: 10px;
+  padding-left: 30px;
+  color: black;
+  text-align: center;
+}
+#result:hover{
+    background-color: #17a2b8;
+    color: white;
+    
+}
+#judulll{
+  font-family: "Comic Sans MS", cursive, sans-serif";
+ 
+}
